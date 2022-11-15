@@ -97,7 +97,6 @@
 											<Tracking event="complete">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/%7B%22c%22%3A%22video%22%2C%22src%22%3A204%2C%22cpl%22%3A1%7D</Tracking>
 											<Tracking event="pause">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/%7B%22p%22%3A1%2C%22c%22%3A%22video%22%2C%22src%22%3A204%7D</Tracking>
 											<Tracking event="resume">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/%7B%22r%22%3A1%2C%22c%22%3A%22video%22%2C%22src%22%3A204%7D</Tracking>
-											<Tracking event="start">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/atf/%7B%22atf%22%3A%22unknown%22%7D</Tracking>
 										</TrackingEvents>
 									</Linear>
 								</Creative>
@@ -107,6 +106,9 @@
 									<AdVerifications>
 										<Verification vendor="amazon.com-omid">
 											<JavaScriptResource apiFramework="omid" browserOptional="true">https://c.amazon-adsystem.com/bao-csm/mobile-video/csm.js</JavaScriptResource>
+											<TrackingEvents>
+												<Tracking event="start">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/atf/%7B%22atf%22%3A%22unknown%22%7D</Tracking>
+											</TrackingEvents>
 											<VerificationParameters>
 												<![CDATA[{"vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/IiJkp8oVFFa1yVG2PeOgk3wAAAF5iis2bQYAAAKLBOGX-SU/"}]]>
 											</VerificationParameters>
