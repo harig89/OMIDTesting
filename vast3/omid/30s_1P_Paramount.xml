@@ -102,20 +102,25 @@
 								</Creative>
 							</Creatives>
 							<Extensions>
-								<Extension type="AdVerifications">
-									<AdVerifications>
-										<Verification vendor="amazon.com-omid">
-											<JavaScriptResource apiFramework="omid" browserOptional="true">https://c.amazon-adsystem.com/bao-csm/vue-test/csmv2.js</JavaScriptResource>
-											<TrackingEvents>
-												<Tracking event="start">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/atf/%7B%22atf%22%3A%22unknown%22%7D</Tracking>
-											</TrackingEvents>
-											<VerificationParameters>
-                                								<![CDATA[{"sourceid":"204","vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/QkIEGbQCZgxX4iJ7fj2Oxq0AAAFdw5w0rAEAAAd0BLx0YRk/","zone":"USEast","sourcetype":"dtb"}]]>
-                            								</VerificationParameters>
-										</Verification>
-									</AdVerifications>
-								</Extension>
-							</Extensions>
+						                <Extension type="AdVerifications">
+						                    <AdVerifications>
+						                        <Verification vendor="amazon.com-omid">
+						                            <JavaScriptResource apiFramework="omid" browserOptional="true">
+						                                <![CDATA[https://c.amazon-adsystem.com/bao-csm/vue-test/csmv2.js]]>
+						                            </JavaScriptResource>
+						 
+						                            <TrackingEvents>
+						                                <Tracking event="verificationNotExecuted">
+						                                    <![CDATA[https://aax-us-pdx.amazon-adsystem.com/x/px/QvxXs2DtdWvaiE977gjzeJQAAAF41Bs6CAYAAA-qBBCK8RU/atf/%7B%22atf%22%3A%22unknown%22%7D]]>
+						                                </Tracking>
+						                            </TrackingEvents>
+						                            <VerificationParameters>
+						                                <![CDATA[{"sourceid":"204","vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/QkIEGbQCZgxX4iJ7fj2Oxq0AAAFdw5w0rAEAAAd0BLx0YRk/","zone":"USEast","sourcetype":"dtb","bidId":"abcd"}]]>
+						                            </VerificationParameters>
+						                        </Verification>
+						                    </AdVerifications>
+						                </Extension>
+						        </Extensions>
 							<Error>
 								<![CDATA[ https://s.amazon-adsystem.com/iui3?d=forester-did&gdpr_pd=1&gdpr_consent=&gdpr=0&v-args=%3Ft%3D1%26d%3D30.13%26ct%3D1014,1020,%26ca%3D-%26s%3D204&ex-fargs=%3Fi%3DejhoJfTm4GzU5o5KHf5vmA%26e%3DvideoError%26a%3D583636564734772364%26c%3D579547704509892279%26s%3Dpda%26u%3DihizHdfz4N4MXKgzE8miBg&ex-fch=416719&cb=8,429,368,434,163,032,807&vec=[ERRORCODE]&vdb=1014,1020,:-:1:video:-:30:204 ]]>
 							</Error>
