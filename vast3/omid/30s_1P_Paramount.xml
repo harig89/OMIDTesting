@@ -105,13 +105,13 @@
 								<Extension type="AdVerifications">
 									<AdVerifications>
 										<Verification vendor="amazon.com-omid">
-											<JavaScriptResource apiFramework="omid" browserOptional="true">https://c.amazon-adsystem.com/bao-csm/mobile-video/csm.js</JavaScriptResource>
+											<JavaScriptResource apiFramework="omid" browserOptional="true">https://c.amazon-adsystem.com/bao-csm/vue-test/csmv2.js</JavaScriptResource>
 											<TrackingEvents>
 												<Tracking event="start">https://aax-us-east.amazon-adsystem.com/x/px/I4oYsx3X8-DeDFyoMxPJogYAAAGCRjSLwwEAAADMBABHRrjw/atf/%7B%22atf%22%3A%22unknown%22%7D</Tracking>
 											</TrackingEvents>
 											<VerificationParameters>
-												<![CDATA[{"vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/IiJkp8oVFFa1yVG2PeOgk3wAAAF5iis2bQYAAAKLBOGX-SU/"}]]>
-											</VerificationParameters>
+                                								<![CDATA[{"sourceid":"204","vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/QkIEGbQCZgxX4iJ7fj2Oxq0AAAFdw5w0rAEAAAd0BLx0YRk/","zone":"USEast","sourcetype":"dtb"}]]>
+                            								</VerificationParameters>
 										</Verification>
 									</AdVerifications>
 								</Extension>
